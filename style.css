@@ -1,0 +1,164 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+.nav-link {
+  color: white;
+}
+
+#hero-section {
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  color: white;
+  text-align: center;
+  padding: 20%;
+  text-shadow: 2px 2px 4px black;
+}
+
+#hero-section h1 {
+  font-size: 4vw;
+  margin-top: 20px;
+}
+
+#hero-section p {
+  font-style: italic;
+  font-size: 2vw;
+  margin-top: 25px;
+}
+
+#profile {
+  width: 18vw;
+  border-radius: 100%;
+  border: 6px solid rgba(0, 0, 0, 0.2);
+}
+
+#mission-target, #skills-target, #projects-target, 
+#contact-target, #carousel-target {
+  position: relative;
+  top: -100px;
+}
+
+h2 {
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+#text {
+  font-size: 2vw;
+}
+
+#mission-section {
+  color: #F8F7FF;
+  background-color: #495867;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#mission-section img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+#skills-section {
+  color: black;
+  background-color: #F8F7FF;
+  /* background-image: linear-gradient(#495867, #F8F7FF); */
+  padding: 50px 0;
+  text-align: center;
+  /* text-shadow: 2px 2px 4px white; */
+}
+
+#skills-section img {
+  width: 12vw;
+  height: 45%;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#projects-section {
+  color: #F8F7FF;
+  background-color: #495867;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#projects-section img {
+  width: 12vw;
+  height: 45%;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#contact-section {
+  padding: 50px 0;
+  text-align: center;
+  color: #F8F7FF;
+  background-color: #495867;
+}
+
+#contact-section i {
+  font-size: 5vw;
+  margin-top: 25px;
+  transition-duration: .5s;
+}
+
+.bi-linkedin:hover {
+  color: #0e76a8;
+}
+
+.bi-h-square-fill:hover {
+  color: #9CD138;
+}
+
+.bi-envelope:hover {
+  color: #D62246;
+}
+
+#carousel-section {
+  background-color: #F8F7FF;
+  /* background-image: linear-gradient(#F8F7FF, #495867); */
+  padding: 50px 0;
+  text-align: center;
+}
+
+#carouselExampleCaptions {
+  margin-top: 30px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 60vh;
+  overflow: hidden;
+  border: 2px soild black;
+}
+
+.carousel-item:after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.3);
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+
+#footer-section {
+  color: white;
+  /* background-color: #102B3F; */  /* Prussian Blue */
+  background-color: #161925;      /* Raisin Black */
+  text-align: center;
+  padding: 20px 0;
+}
+
+#footer-section p {
+  font-size: 2vw;
+  margin: 0;
+}
