@@ -105,9 +105,17 @@ h2 {
   transition-duration: .5s;
 }
 
-.bi-linkedin:hover {
+.linkedin {
+  color: white;
+}
+
+.linkedin:hover {
   color: #0e76a8;
 }
+
+/*.bi-linkedin:hover {
+  color: #0e76a8;
+}*/
 
 .bi-h-square-fill:hover {
   color: #9CD138;
